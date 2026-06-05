@@ -104,42 +104,62 @@ ________________________________________
 
 • **Full Correlation Heatmap:** Coolwarm Heatmap
 ________________________________________
-📌 Key Insights
+**📌 Key Insights**
 
-•	📈 Higher session codes show a mild correlation with better overall ratings, suggesting student comfort increases over time.
-•	🏫 Faculty-wise performance varies significantly — some professors consistently receive higher ratings across sessions.
-•	💻 Technology usage quality directly impacts student satisfaction — students who rated technology as "Excellent" also gave higher overall ratings.
-•	📚 Subject-wise clusters reveal that certain subjects (e.g., Power BI) receive consistently higher satisfaction scores than others.
-•	📅 Weekly and monthly trends show dips and peaks in feedback, helping identify specific sessions that need attention.
-•	⚖️ Gender distribution is relatively balanced, ensuring feedback is representative across the student population.
-________________________________________
+• Higher session codes show a mild correlation with better overall ratings, suggesting student comfort increases over time.
+
+• Faculty-wise performance varies significantly — some professors consistently receive higher ratings across sessions.
+
+• Technology usage quality directly impacts student satisfaction — students who rated technology as "Excellent" also gave higher overall ratings.
+
+• Subject-wise clusters reveal that certain subjects (e.g., Power BI) receive consistently higher satisfaction scores than others.
+
+• Weekly and monthly trends show dips and peaks in feedback, helping identify specific sessions that need attention.
+
+• Gender distribution is relatively balanced, ensuring feedback is representative across the student population.
 
 ________________________________________
-▶️ How to Run
+**▶️ How to Run**
 
-1.	Clone the repository
-   git clone https://github.com/your-username/student-feedback-sentiment-analysis.git
-   cd student-feedback-sentiment-analysis
-2.	Install required libraries
-   pip install pandas numpy matplotlib seaborn scikit-learn jupyter
-3.	Launch Jupyter Notebook
-   jupyter notebook project.ipynb
-4.	Run all cells to reproduce the full analysis and visualizations.
+1.	Clone the repository.
+
+  	git clone https://github.com/your-username/student-feedback-sentiment-analysis.git
+  	
+   cd student-feedback-sentiment-analysis.
+  	
+3.	Install required libraries.
+   
+    pip install pandas numpy matplotlib seaborn scikit-learn jupyter.
+   
+4.	Launch Jupyter Notebook.
+
+  	 jupyter notebook project.ipynb.
+   
+5.	Run all cells to reproduce the full analysis and visualizations.
 ________________________________________
-📋 Requirements
+**📋 Requirements**
 
 pandas
+
 numpy
+
 matplotlib
+
 seaborn
+
 scikit-learn
+
 jupyter
 ________________________________________
-🚀 Future Scope
+**🚀 Future Scope**
 
-•	🔤 NLP Text Analysis — Add text-based feedback column and apply VADER / TextBlob for deeper sentiment scoring
-•	📡 Real-Time Dashboard — Build a live Streamlit or Power BI dashboard connected to live feedback forms
-•	🤖 Predictive Modeling — Train classification models to predict student satisfaction from session attributes
-•	📧 Alert System — Automated alerts to faculty/admin when ratings drop below a threshold
-•	🌐 Web Integration — Embed feedback collection and live analysis into a student portal
+• **NLP Text Analysis —** Add text-based feedback column and apply VADER / TextBlob for deeper sentiment scoring.
+
+•	**Real-Time Dashboard —** Build a live Streamlit or Power BI dashboard connected to live feedback forms.
+
+•	**Predictive Modeling —** Train classification models to predict student satisfaction from session attributes.
+
+•	**Alert System —** Automated alerts to faculty/admin when ratings drop below a threshold.
+
+•	**Web Integration —** Embed feedback collection and live analysis into a student portal.
 
